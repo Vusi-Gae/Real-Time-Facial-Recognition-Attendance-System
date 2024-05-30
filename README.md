@@ -1,15 +1,15 @@
-Real-Time Facial Recognition Attendance System
-Project Overview
-This project aims to automate and streamline the process of tracking student attendance using real-time facial recognition technology. The system leverages computer vision and machine learning to accurately identify students and record their attendance, providing a more efficient and reliable alternative to traditional attendance methods.
+Real-Time Facial Recognition Attendance System\
+Project Overview\
+This project aims to automate and streamline the process of tracking student attendance using real-time facial recognition technology. The system leverages computer vision and machine learning to accurately identify students and record their attendance, providing a more efficient and reliable alternative to traditional attendance methods.\
 
-Team Members
-Tshepang Gaeatlholwe (Team Lead)
-Ernest Mokoena (Lead Developer)
+Team Members\
+Tshepang Gaeatlholwe (Team Lead)\
+Ernest Mokoena (Lead Developer\
 
 System Architecture
 The system architecture comprises several key components:
 Webcam: Captures real-time video frames.
-OpenCV: Used for image processing and capturing frames from the webcam.
+OpenCV: Used for image processing and capturing frames from the webcam
 face_recognition Library: Facilitates face detection and encoding.
 Firebase: Backend for storing student information, attendance records, and facial images.
 Firebase Realtime Database: For storing data records.
