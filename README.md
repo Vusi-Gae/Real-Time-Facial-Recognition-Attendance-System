@@ -4,7 +4,7 @@ This project aims to automate and streamline the process of tracking student att
 
 Team Members\
 Tshepang Gaeatlholwe (Team Lead)\
-Ernest Mokoena (Lead Developer)\
+Ernest Mokoena (Lead Developer)
 
 System Architecture\
 The system architecture comprises several key components:\
@@ -15,7 +15,7 @@ Firebase: Backend for storing student information, attendance records, and facia
 Firebase Realtime Database: For storing data records.\
 Firebase Storage: For storing image files.\
 cvzone: Enhances the display of bounding boxes and other UI elements on the images.\
-pickle: Used for serializing and deserializing facial encodings and student IDs.\
+pickle: Used for serializing and deserializing facial encodings and student IDs.
 
 Technologies Used\
 OpenCV: For image processing and frame capture.\
@@ -29,4 +29,14 @@ Python 3.\
 pip (Python package installer)\
 Firebase account with a configured Realtime Database and Storage Bucket\
 Webcam
+
+Data Flow\
+Data Input:
+Student data is inputted and stored in Firebase Realtime Database.\
+Image Upload:
+Student images are uploaded to Firebase Storage.\
+Face Encoding:
+Images are processed and encoded for face recognition.\
+Attendance Tracking:
+Faces are recognized and attendance is updated in real-time.
 
